@@ -45,12 +45,12 @@
     margin: 20px;
   }
   
-  img {
+  /* img {
     height: 140px;
     width: auto;
     border-radius: 50%;
     border: 2px solid black;
-  }
+  } */
   
   .position {
     border-bottom: 4px solid black;
