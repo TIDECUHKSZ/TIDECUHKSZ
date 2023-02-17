@@ -5,7 +5,7 @@
   }
   body {
     /* background: black; */
-    /* min-height: 100vh; */
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,18 +17,18 @@
     width: 1200px;
     display: flex;
     flex-direction: column;
-    /* padding: 3rem; */
+    padding: 3rem;
     /* justify-content: space-evenly; */
-    align-items: center;
+    /* align-items: center; */
   }
   
-  /* .title,
+  .title,
   header {
     display: flex;
     justify-content: center;
     font-family: "Poiret One", cursive;
     font-size: 50px;
-  } */
+  }
   
   .panel-wrapper {
     display: flex;
@@ -55,12 +55,12 @@
   .position {
     border-bottom: 4px solid black;
   }
-  /* .background {
+  .background {
     margin-top: 30px;
     text-align: justify;
     font-size: 13px;
     margin-bottom: 30px;
-  } */
+  }
   .socials,
   .fab {
     display: flex;
