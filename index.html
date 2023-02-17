@@ -67,5 +67,29 @@ subtitle: The School of Data Science (SDS) of The Chinese University of Hong Kon
         </div>
       </div>
     </div>
+    <!-- Posts -->
+    <h1>Posts</h1>
+    <br />
+    <!-- include *.md files from _posts folder -->
+    {% for post in site.posts %}
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>{{ post.title }}</h2>
+            <p class="title">{{ post.date | date: "%Y-%m-%d" }}</p>
+            <p>{{ post.excerpt }}</p>
+            <p>
+              <button class="button">
+                <a
+                  href="{{ post.url }}"
+                  style="text-decoration: none"
+                  >Read More</a
+                >
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
