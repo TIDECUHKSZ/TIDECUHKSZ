@@ -69,23 +69,41 @@ subtitle: The School of Data Science (SDS) of The Chinese University of Hong Kon
     </div>
     <!-- Posts -->
     <h1>News</h1>
-    <!-- include all *.md files from /_news folder -->
-    {% for post in site.news %}
+    <br />
     <div class="row">
       <div class="column">
         <div class="card">
+          <img
+            src="assets/img/news/2020-09-01.jpg"
+            alt="2020-09-01"
+            style="width: 100%"
+          />
           <div class="container">
-            <h2>{{ post.title }}</h2>
-            <p class="title">{{ post.date | date: "%Y-%m-%d" }}</p>
-            <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+            <h2>2020-09-01</h2>
             <p>
-              <button class="button">
-                <a
-                  href="{{ post.url }}"
-                  style="text-decoration: none"
-                  >Read More</a
-                >
-              </button>
+              <a href="https://www.cuhk.edu.cn/zh-hans/news/2020/09/20200901-01"
+                >CUHK Shenzhen and Huawei jointly launch the Center for Digital
+                Economy Technology Innovation</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="assets/img/news/2020-09-01.jpg"
+            alt="2020-09-01"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>2020-09-01</h2>
+            <p>
+              <a href="https://www.cuhk.edu.cn/zh-hans/news/2020/09/20200901-01"
+                >CUHK Shenzhen and Huawei jointly launch the Center for Digital
+                Economy Technology Innovation</a
+              >
             </p>
           </div>
         </div>
