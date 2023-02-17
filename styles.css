@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body {
+  /* body {
     background: black;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
   
   .content-wrapper {
     background: white;
@@ -22,13 +22,13 @@
     /* align-items: center; */
   }
   
-  .title,
+  /* .title,
   header {
     display: flex;
     justify-content: center;
     font-family: "Poiret One", cursive;
     font-size: 50px;
-  }
+  } */
   
   .panel-wrapper {
     display: flex;
@@ -55,12 +55,12 @@
   .position {
     border-bottom: 4px solid black;
   }
-  .background {
+  /* .background {
     margin-top: 30px;
     text-align: justify;
     font-size: 13px;
     margin-bottom: 30px;
-  }
+  } */
   .socials,
   .fab {
     display: flex;
