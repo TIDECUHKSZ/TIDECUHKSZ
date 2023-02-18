@@ -16,12 +16,12 @@ This interest group focuses specifically on knowledge graphs and graph learning,
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- skip post if categories is not Members -->
-  {% if post.categories != 'Members' %} {% continue %} {% endif %}
+  {% if post.categories != "Members" %} {% continue %} {% endif %}
 
   <!-- only show post category is mumbers -->
   <!-- only show posts tags is exactly group_coordinator_tag -->
   {% if post.tags contains group_coordinator_tag and post.categories contains
-  'Members' %}
+  "Members" %}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
@@ -92,10 +92,10 @@ This interest group focuses specifically on knowledge graphs and graph learning,
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- skip post if categories is not Members -->
-  {% if post.categories != 'Members' %} {% continue %} {% endif %}
+  {% if post.categories != "Members" %} {% continue %} {% endif %}
   <!-- only show posts tags is exactly group_member_tag -->
   {% if post.tags contains group_coordinator_tag and post.categories contains
-  'Members' %}
+  "Members" %}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{

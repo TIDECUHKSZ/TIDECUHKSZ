@@ -100,7 +100,7 @@ layout: page
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- only show posts with category Members -->
-  {% if post.categories contains 'Members' %}
+  {% if post.categories contains "Members" %}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
