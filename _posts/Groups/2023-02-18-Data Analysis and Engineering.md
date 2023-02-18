@@ -8,9 +8,7 @@ comments: true
 ---
 
 # Memebers
-<html>
-    <body>
-    <ul class="posts-list list-unstyled" role="list">
+<ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- only show posts with category Members -->
   {% if post.categories contains 'Members' %}
@@ -30,17 +28,14 @@ comments: true
       {% endif %} {% endif %}
       <a href="{{ post.url | absolute_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
-
         {% if post.subtitle %}
         <h3 class="post-subtitle">{{ post.subtitle | strip_html }}</h3>
         {% endif %}
       </a>
-
       <p class="post-meta">
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         Posted on {{ post.date | date: date_format }}
       </p>
-
       {% if thumbnail != "" %}
       <div class="post-image post-image-small">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
@@ -55,7 +50,6 @@ comments: true
         </a>
       </div>
       {% endif %}
-
       <div class="post-entry">
         {% assign excerpt_length = site.excerpt_length | default: 50 %} {{
         post.excerpt | strip_html | truncatewords: excerpt_length }} {% assign
@@ -84,8 +78,6 @@ comments: true
   </li>
   {% endif %} {% endfor %}
 </ul>
-    </body>
-</html>
 
 # Research Interests
 Focusing on data analysis and application, this group carries out key technical research, standard formulation, engineering realization and platform construction, and actively carries out technical consultation to better serve the society and industry development.

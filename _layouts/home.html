@@ -115,7 +115,6 @@ layout: page
         </a>
       </div>
       {% endif %} {% endif %}
-
       <a href="{{ post.url | absolute_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
 
@@ -123,7 +122,6 @@ layout: page
         <h3 class="post-subtitle">{{ post.subtitle | strip_html }}</h3>
         {% endif %}
       </a>
-
       <p class="post-meta">
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         Posted on {{ post.date | date: date_format }}
@@ -143,7 +141,6 @@ layout: page
         </a>
       </div>
       {% endif %}
-
       <div class="post-entry">
         {% assign excerpt_length = site.excerpt_length | default: 50 %} {{
         post.excerpt | strip_html | truncatewords: excerpt_length }} {% assign
