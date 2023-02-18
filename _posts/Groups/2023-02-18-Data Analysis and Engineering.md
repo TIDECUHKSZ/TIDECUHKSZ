@@ -9,10 +9,15 @@ comments: true
 {{ content }} {% assign posts = paginator.posts | default: site.posts %}
 {% assign group_coordinator_tag = "DAE_C" %}
 {% assign group_member_tag = "DAE" %}
+
+# Research Interests
+Focusing on data analysis and application, this group carries out key technical research, standard formulation, engineering realization and platform construction, and actively carries out technical consultation to better serve the society and industry development.
+
+# Coordinator
 # Coordinator
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
-  <!-- only show posts tags is exactly DAE -->
+  <!-- only show posts tags is exactly group_coordinator_tag -->
     {% if post.tags contains group_coordinator_tag %}
   <li class="post-preview">
     <article>
@@ -62,20 +67,6 @@ comments: true
         >
         {% endif %}
       </div>
-      {% endunless %} {% if site.feed_show_tags != false and post.tags.size > 0
-      %}
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          {% for tag in post.tags %}
-          <li class="list-inline-item">
-            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
     </article>
   </li>
   {% endif %} {% endfor %}
@@ -83,7 +74,7 @@ comments: true
 # Memebers
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
-  <!-- only show posts tags is exactly DAE -->
+  <!-- only show posts tags is exactly group_member_tag -->
     {% if post.tags contains group_member_tag %}
   <li class="post-preview">
     <article>
@@ -151,6 +142,3 @@ comments: true
   </li>
   {% endif %} {% endfor %}
 </ul>
-
-# Research Interests
-Focusing on data analysis and application, this group carries out key technical research, standard formulation, engineering realization and platform construction, and actively carries out technical consultation to better serve the society and industry development.
