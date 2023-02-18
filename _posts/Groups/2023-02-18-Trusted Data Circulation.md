@@ -15,7 +15,7 @@ Trustworthy and orderly cross-industry circulation of data elements is the core 
 
 # Coordinator
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in site.categories.Members %}
+  {% for post in posts %}
   <!-- only show posts tags is exactly group_coordinator_tag -->
   {% if post.tags contains group_coordinator_tag %}
   <li class="post-preview">
@@ -87,7 +87,7 @@ Trustworthy and orderly cross-industry circulation of data elements is the core 
 
 # Memebers
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in site.categories.Members %}
+  {% for post in posts %}
   <!-- only show posts tags is exactly group_member_tag -->
   {% if post.tags contains group_member_tag %}
   <li class="post-preview">

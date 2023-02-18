@@ -6,7 +6,7 @@ tags: []
 categories: [Groups]
 comments: true
 ---
-{{ content }} {% assign posts = paginator.posts | default: site.posts %}
+{% assign posts = paginator.posts | default: site.posts %}
 {% assign group_coordinator_tag = "SHDS_C" %}
 {% assign group_member_tag = "SHDS" %}
 
@@ -15,7 +15,7 @@ This group is mainly concerned with intelligent health and data security. Intell
 
 # Coordinator
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in site.categories.Members %}
+  {% for post in posts %}
   <!-- only show posts tags is exactly group_coordinator_tag -->
   {% if post.tags contains group_coordinator_tag %}
   <li class="post-preview">

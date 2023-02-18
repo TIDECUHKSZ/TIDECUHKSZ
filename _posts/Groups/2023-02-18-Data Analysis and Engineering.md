@@ -6,7 +6,7 @@ tags: []
 categories: [Groups]
 comments: true
 ---
-{{ content }} {% assign posts = paginator.posts | default: site.posts %}
+{% assign posts = paginator.posts | default: site.posts %}
 {% assign group_coordinator_tag = "DAE_C" %}
 {% assign group_member_tag = "DAE" %}
 
@@ -15,7 +15,7 @@ Focusing on data analysis and application, this group carries out key technical 
 
 # Coordinator
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in site.categories.Members %}
+  {% for post in posts %}
   <!-- only show posts tags is exactly group_coordinator_tag -->
   {% if post.tags contains group_coordinator_tag %}
   <li class="post-preview">
