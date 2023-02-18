@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Knowledge Graph and Graph Learning"
-subtitle: "Knowledge Graph & Graph Learning group explores & shares research, experience & ideas on knowledge graphs & graph learning."
+subtitle: "Knowledge Graph and Graph Learning group focuses on knowledge graphs and graph learning, sharing research and ideas."
 tags: []
 categories: [Groups]
 comments: true
