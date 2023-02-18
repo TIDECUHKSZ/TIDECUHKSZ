@@ -9,6 +9,9 @@ assign group_coordinator_tag = "DAE_C" %} {% assign group_member_tag = "DAE" %}
 # Coordinator
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
+  <!-- skip post if categories is not Members -->
+  {% if post.categories != 'Members' %} {% continue %} {% endif %}
+
   <!-- only show post category is mumbers -->
   <!-- only show posts tags is exactly group_coordinator_tag -->
   {% if post.tags contains group_coordinator_tag and post.categories contains
