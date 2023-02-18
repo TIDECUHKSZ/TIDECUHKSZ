@@ -5,6 +5,17 @@ layout: page
 {{ content }} {% assign posts = paginator.posts | default: site.posts %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+<!-- News -->
+<h1>News</h1>
+{% for post in site.categories.News %}
+<li>
+  <span>{{ post.date | date_to_string }}</span> &nbsp;
+  <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+<br />
+
+<!-- Groups -->
 <h1>Groups</h1>
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
@@ -101,11 +112,62 @@ layout: page
   {% endif %}
 </ul>
 {% endif %}
+<br />
 
-<h1>News</h1>
-{% for post in site.categories.News %}
-<li>
-  <span>{{ post.date | date_to_string }}</span> &nbsp;
-  <a href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
+<!-- Members -->
+<h1>Members</h1>
+<br />
+<div class="row">
+  <div class="column">
+    <div class="card" style="height: 100%">
+      <img
+        src="assets/img/faculty/jianhua_huang.jpg"
+        alt="Jianhua Huang"
+        style="width: 60%; align-self: center"
+      />
+      <div class="container">
+        <h2>Jianhua Huang</h2>
+        <p class="title">Director</p>
+        <p>
+          Associate Dean (Faculty Affairs and Strategic Operations)
+          <br />
+          Presidential Chair Professor
+        </p>
+        <!-- <p>
+          <button class="button">
+            <a
+              href="mailto: jhuang@cuhk.edu.cn"
+              style="text-decoration: none"
+              >Contact</a
+            >
+          </button>
+        </p> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card" style="height: 100%">
+      <img
+        src="assets/img/faculty/ming_yan.jpg"
+        alt="Ming Yan"
+        style="width: 60%; align-self: center"
+      />
+      <div class="container">
+        <h2>Ming Yan</h2>
+        <p class="title">Associate Director</p>
+        <p>Associate Professor</p>
+        <!-- <p>
+          <button class="button">
+            <a
+              href="mailto: yanming@cuhk.edu.cn"
+              style="text-decoration: none"
+              >Contact</a
+            >
+          </button>
+        </p> -->
+      </div>
+    </div>
+  </div>
+</div>
+<br />
