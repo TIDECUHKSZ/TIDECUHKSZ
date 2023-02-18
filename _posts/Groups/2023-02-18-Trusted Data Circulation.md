@@ -14,9 +14,4 @@ comments: true
 Trustworthy and orderly cross-industry circulation of data elements is the core appeal of the market; data supervision is becoming increasingly strict, and data security has become the biggest challenge for industry digitization. This group focuses on the data market (including transactions, pricing, etc.), data security, etc. At the technical level, it can focus on privacy computing (federal learning, multi-party secure computing, password safe house), blockchain (data storage, data confirmation), etc.
 
 # Coordinator
-{% for post in site.categories.Members %}
-{% if post.tags contains group_coordinator_tag %}
-  <li>
-    <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-  </li>
-{% endif %} {% endfor %}
+
