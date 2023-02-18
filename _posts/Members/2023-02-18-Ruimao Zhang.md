@@ -12,7 +12,7 @@ thumbnail-img: /assets/img/members/Ruimao_Zhang.jpg
 <!-- size: 200px width use html-->
 <img
     src="../../assets/img/members/Ruimao_Zhang.jpg"
-    alt=""
+    alt="Ruimao Zhang"
     style="width: 200px; align: left;"
 />
 
