@@ -16,6 +16,10 @@ This group is mainly concerned with intelligent health and data security. Intell
 # Coordinator
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
+  <!-- if post category is not Groups -->
+    {% if post.categories contains "Groups" %}
+      {% continue %}
+    {% endif %}
   <!-- only show posts tags is exactly group_coordinator_tag -->
     {% if post.tags contains group_coordinator_tag %}
   <li class="post-preview">
