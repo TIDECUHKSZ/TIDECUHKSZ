@@ -170,3 +170,4 @@ It is generally believed that stimuli may activate "neurons that perceive differ
     </li>
     {% endfor %}
   </ul>
+</div>

@@ -169,3 +169,4 @@ This interest group focuses specifically on knowledge graphs and graph learning,
     </li>
     {% endfor %}
   </ul>
+</div>
