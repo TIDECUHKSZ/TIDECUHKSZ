@@ -156,3 +156,17 @@ Focusing on data analysis and application, this group carries out key technical 
   </li>
   {% endif %} {% endfor %}
 </ul>
+
+# Page Tags
+<!-- show page tags -->
+{% if page.tags.size > 0 %}
+<div class="blog-tags">
+  <span>Tags:</span>
+  <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+  <ul class="d-inline list-inline" role="list">
+    {% for tag in page.tags %}
+    <li class="list-inline-item">
+      <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+    </li>
+    {% endfor %}
+  </ul>

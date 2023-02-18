@@ -155,3 +155,17 @@ This interest group focuses specifically on knowledge graphs and graph learning,
   </li>
   {% endif %} {% endfor %}
 </ul>
+
+# Page Tags
+<!-- show page tags -->
+{% if page.tags.size > 0 %}
+<div class="blog-tags">
+  <span>Tags:</span>
+  <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+  <ul class="d-inline list-inline" role="list">
+    {% for tag in page.tags %}
+    <li class="list-inline-item">
+      <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+    </li>
+    {% endfor %}
+  </ul>
