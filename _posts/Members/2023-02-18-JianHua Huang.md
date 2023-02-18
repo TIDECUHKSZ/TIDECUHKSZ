@@ -8,8 +8,12 @@ comments: true
 ---
 
 <!-- photo -->
-
-![Jianhua Huang](../../assets/img/mumbers/Jianhua_Huang.jpg)
+<!-- size: 50% width use html-->
+<img
+    src="../../assets/img/mumbers/Jianhua_Huang.jpg"
+    alt="Jianhua Huang"
+    style="width: 50%"
+/>
 
 <!-- bio -->
 <p>
