@@ -6,7 +6,7 @@ tags: []
 categories: [Groups]
 comments: true
 ---
-{{ content }} {% assign posts = paginator.posts | default: site.categories.Members %}
+{% assign posts = paginator.posts | default: site.categories.Members %}
 {% assign group_coordinator_tag = "TDC_C" %}
 {% assign group_member_tag = "TDC" %}
 
