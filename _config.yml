@@ -21,9 +21,7 @@ author: The School of Data Science (SDS) of The Chinese University of Hong Kong,
 
 navbar-links:
   About: "about"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  All Pages: "categories"
   School of Data Science: "https://sds.cuhk.edu.cn/"
 
 ################
