@@ -158,6 +158,8 @@ It is generally believed that stimuli may activate "neurons that perceive differ
 </ul>
 
 # Page Tags
+<!-- assign page -->
+{% assign page = site.pages | where: "url", page.url | first %}
 <!-- show page tags -->
 {% if page.tags.size > 0 %}
 <div class="blog-tags">

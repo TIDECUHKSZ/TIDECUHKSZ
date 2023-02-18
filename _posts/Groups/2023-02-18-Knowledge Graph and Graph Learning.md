@@ -157,6 +157,8 @@ This interest group focuses specifically on knowledge graphs and graph learning,
 </ul>
 
 # Page Tags
+<!-- assign page -->
+{% assign page = site.pages | where: "url", page.url | first %}
 <!-- show page tags -->
 {% if page.tags.size > 0 %}
 <div class="blog-tags">

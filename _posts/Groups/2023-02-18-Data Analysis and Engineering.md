@@ -158,6 +158,8 @@ Focusing on data analysis and application, this group carries out key technical 
 </ul>
 
 # Page Tags
+<!-- assign page -->
+{% assign page = site.pages | where: "url", page.url | first %}
 <!-- show page tags -->
 {% if page.tags.size > 0 %}
 <div class="blog-tags">
