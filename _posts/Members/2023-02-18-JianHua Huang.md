@@ -1,32 +1,34 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
-tags: [test]
+title: "Jianhua Huang"
+subtitle: "Director"
+tags: [DAE]
 categories: [Members]
-comments: true
+comments: false
+thumbnail-img: /assets/img/mumbers/Jianhua_Huang.jpg
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+<!-- photo -->
+<!-- size: 200px width use html-->
+<img
+    src="../../assets/img/mumbers/Jianhua_Huang.jpg"
+    alt="Jianhua Huang"
+    style="width: 200px;"
+/>
 
-**Here is some bold text**
+<!-- bio -->
+<p>
+    Associate Dean (Faculty Affairs and Strategic Operations)
+    <br />
+    Presidential Chair Professor
+</p>
 
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
+<p>
+    <button class="button">
+    <a
+        href="mailto: jhuang@cuhk.edu.cn"
+        style="text-decoration: none"
+        >Contact</a
+    >
+    </button>
+</p>
