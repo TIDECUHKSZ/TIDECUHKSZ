@@ -11,6 +11,8 @@ layout: page
 <ul class="posts-list list-unstyled" role="list">
 
 {% for post in posts %}
+<!-- only show posts with category Groups -->
+{% if post.categories contains 'Groups' %}
 <li class="post-preview">
   <article>
 
@@ -96,6 +98,7 @@ layout: page
 
   </article>
 </li>
+{% endif %}
 {% endfor %}
 </ul>
 
