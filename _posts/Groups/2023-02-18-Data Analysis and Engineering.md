@@ -28,7 +28,6 @@ comments: true
         </a>
       </div>
       {% endif %} {% endif %}
-
       <a href="{{ post.url | absolute_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
 
