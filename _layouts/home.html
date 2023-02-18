@@ -6,17 +6,19 @@ layout: page
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <!-- News -->
-<h1>News</h1>
+<h1>Recent News</h1>
 {% for post in site.categories.News %}
 <li>
   <span>{{ post.date | date_to_string }}</span> &nbsp;
   <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
 </li>
+<!-- only show the recent 5 news -->
+{% if forloop.index == 5 %} {% break %} {% endif %}
 {% endfor %}
 <br />
 
-<!-- Groups -->
-<h1>Groups</h1>
+<!-- Interest Groups -->
+<h1>Interest Groups</h1>
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- only show posts with category Groups -->
