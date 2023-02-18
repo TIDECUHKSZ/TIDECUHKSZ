@@ -4,5 +4,29 @@ title: ""
 subtitle: ""
 tags: []
 categories: [Members]
-comments: true
+comments: false
+thumbnail-img: /assets/img/mumbers/.jpg
 ---
+
+<!-- photo -->
+<!-- size: 200px width use html-->
+<img
+    src="../../assets/img/mumbers/.jpg"
+    alt=""
+    style="width: 200px; align: center;"
+/>
+
+<!-- bio -->
+<p>
+    
+</p>
+
+<p>
+    <button class="button">
+    <a
+        href=""
+        style="text-decoration: none"
+        >More Information</a
+    >
+    </button>
+</p>

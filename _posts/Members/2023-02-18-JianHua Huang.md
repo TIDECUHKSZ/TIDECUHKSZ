@@ -5,7 +5,7 @@ subtitle: "Director"
 tags: [DAE]
 categories: [Members]
 comments: false
-thumbnail: /assets/img/mumbers/Jianhua_Huang.jpg
+thumbnail-img: /assets/img/mumbers/Jianhua_Huang.jpg
 ---
 
 <!-- photo -->
@@ -13,7 +13,7 @@ thumbnail: /assets/img/mumbers/Jianhua_Huang.jpg
 <img
     src="../../assets/img/mumbers/Jianhua_Huang.jpg"
     alt="Jianhua Huang"
-    style="width: 200px;"
+    style="width: 200px; align: center;"
 />
 
 <!-- bio -->
@@ -26,9 +26,9 @@ thumbnail: /assets/img/mumbers/Jianhua_Huang.jpg
 <p>
     <button class="button">
     <a
-        href="mailto: jhuang@cuhk.edu.cn"
+        href="https://sds.cuhk.edu.cn/en/teacher/470"
         style="text-decoration: none"
-        >Contact</a
+        >More Information</a
     >
     </button>
 </p>
