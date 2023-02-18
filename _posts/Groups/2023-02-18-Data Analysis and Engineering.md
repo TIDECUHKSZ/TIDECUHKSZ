@@ -8,6 +8,7 @@ comments: true
 ---
 
 # Memebers
+{{ content }} {% assign posts = paginator.posts | default: site.posts %}
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- only show posts tags is exactly DAE -->
