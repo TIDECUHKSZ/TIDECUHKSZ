@@ -10,8 +10,8 @@ comments: true
 # Memebers
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
-  <!-- only show posts with category Members -->
-  {% if post.categories contains 'Members' %}
+  <!-- only show posts tags is exactly DAE -->
+    {% if post.tags contains "DAE" %}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
