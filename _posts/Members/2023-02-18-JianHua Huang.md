@@ -5,15 +5,15 @@ subtitle: "Director"
 tags: [DAE]
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/mumbers/Jianhua_Huang.jpg
+thumbnail-img: /assets/img/members/Jianhua_Huang.jpg
 ---
 
 <!-- photo -->
 <!-- size: 200px width use html-->
 <img
-    src="../../assets/img/mumbers/Jianhua_Huang.jpg"
+    src="../../assets/img/members/Jianhua_Huang.jpg"
     alt="Jianhua Huang"
-    style="width: 200px; align: center;"
+    style="width: 200px; align: left;"
 />
 
 <!-- bio -->
