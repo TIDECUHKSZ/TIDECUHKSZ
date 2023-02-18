@@ -9,7 +9,7 @@ comments: true
 
 <!-- photo -->
 
-![Jianhua Huang](/assets/img/mumbers/Jianhua Huang.jpg)
+![Jianhua Huang](/assets/img/mumbers/Jianhua_Huang.jpg)
 
 <!-- bio -->
 <p>

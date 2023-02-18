@@ -93,33 +93,13 @@ layout: page
   </li>
   {% endif %} {% endfor %}
 </ul>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pagination main-pager">
-  {% if paginator.previous_page %}
-  <li class="page-item previous">
-    <a
-      class="page-link"
-      href="{{ paginator.previous_page_path | absolute_url }}"
-      >&larr; Previous</a
-    >
-  </li>
-  {% endif %} {% if paginator.next_page %}
-  <li class="page-item next">
-    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}"
-      >Next &rarr;</a
-    >
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
 <br />
 
 <!-- Members -->
 <h1>Members</h1>
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
-  <!-- only show posts with category Groups -->
+  <!-- only show posts with category Members -->
   {% if post.categories contains 'Members' %}
   <li class="post-preview">
     <article>
@@ -193,3 +173,23 @@ layout: page
   {% endif %} {% endfor %}
 </ul>
 <br />
+
+{% if paginator.total_pages > 1 %}
+<ul class="pagination main-pager">
+  {% if paginator.previous_page %}
+  <li class="page-item previous">
+    <a
+      class="page-link"
+      href="{{ paginator.previous_page_path | absolute_url }}"
+      >&larr; Previous</a
+    >
+  </li>
+  {% endif %} {% if paginator.next_page %}
+  <li class="page-item next">
+    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}"
+      >Next &rarr;</a
+    >
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
