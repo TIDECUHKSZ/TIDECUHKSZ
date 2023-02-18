@@ -17,7 +17,7 @@ Focusing on data analysis and application, this group carries out key technical 
 <ul class="posts-list list-unstyled" role="list">
   {% for post in site.categories.Members %}
   <!-- only show posts tags is exactly group_coordinator_tag -->
-  {% if post.tags == group_coordinator_tag %}
+  {% if post.tags contains group_coordinator_tag %}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
