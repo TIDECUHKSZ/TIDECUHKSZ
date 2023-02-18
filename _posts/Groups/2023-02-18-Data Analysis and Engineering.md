@@ -17,11 +17,8 @@ Focusing on data analysis and application, this group carries out key technical 
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- if post category is not Groups -->
-    {% if post.categories contains "Groups" %}
-      {% continue %}
-    {% endif %}
   <!-- only show posts tags is exactly group_coordinator_tag -->
-    {% if post.tags contains group_coordinator_tag %}
+    {% if post.tags contains group_coordinator_tag and post.categories != "Groups"%}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
@@ -92,7 +89,7 @@ Focusing on data analysis and application, this group carries out key technical 
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- only show posts tags is exactly group_member_tag -->
-    {% if post.tags contains group_member_tag %}
+    {% if post.tags contains group_member_tag and post.categories != "Groups"%}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
