@@ -7,8 +7,8 @@ categories: [Groups]
 comments: true
 ---
 {{ content }} {% assign posts = paginator.posts | default: site.posts %}
-{% assign group_coordinator_tag = DAE_C %}
-{% assign group_member_tag = DAE %}
+{% assign group_coordinator_tag = "DAE_C" %}
+{% assign group_member_tag = "DAE" %}
 # Coordinator
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
