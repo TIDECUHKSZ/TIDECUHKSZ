@@ -8,10 +8,12 @@ comments: true
 ---
 
 # Memebers
-<ul class="posts-list list-unstyled" role="list">
+<html>
+    <body>
+    <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
-  <!-- only show posts with tags DAE -->
-    {% if post.tags contains 'DAE' %}
+  <!-- only show posts with category Members -->
+  {% if post.categories contains 'Members' %}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
@@ -83,6 +85,8 @@ comments: true
   </li>
   {% endif %} {% endfor %}
 </ul>
+    </body>
+</html>
 
 # Research Interests
 Focusing on data analysis and application, this group carries out key technical research, standard formulation, engineering realization and platform construction, and actively carries out technical consultation to better serve the society and industry development.
