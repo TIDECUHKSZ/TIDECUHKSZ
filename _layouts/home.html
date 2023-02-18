@@ -11,8 +11,6 @@ layout: page
 <ul class="posts-list list-unstyled" role="list">
 
 {% for post in posts %}
-<!-- only show post with category Groups -->
-{% if post.categories contains 'Groups' %}
 <li class="post-preview">
   <article>
 
@@ -98,7 +96,6 @@ layout: page
 
   </article>
 </li>
-{% endif %}
 {% endfor %}
 </ul>
 
@@ -116,3 +113,10 @@ layout: page
   {% endif %}
 </ul>
 {% endif %}
+
+{% for post in site.categories.Groups %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &nbsp;
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
