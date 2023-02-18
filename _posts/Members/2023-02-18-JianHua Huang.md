@@ -5,7 +5,7 @@ subtitle: "Director"
 tags: [DAE]
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/mumbers/Jianhua_Huang.jpg
+thumbnail: /assets/img/mumbers/Jianhua_Huang.jpg
 ---
 
 <!-- photo -->
