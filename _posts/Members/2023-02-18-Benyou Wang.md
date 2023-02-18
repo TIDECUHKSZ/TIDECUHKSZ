@@ -12,7 +12,7 @@ thumbnail-img: /assets/img/members/Benyou_Wang.jpg
 <!-- size: 200px width use html-->
 <img
     src="../../assets/img/members/Benyou_Wang.jpg"
-    alt=""
+    alt="Benyou Wang"
     style="width: 200px; align: left;"
 />
 

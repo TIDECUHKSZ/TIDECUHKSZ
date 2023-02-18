@@ -5,7 +5,7 @@ subtitle: ""
 tags: [NLP,AHDS] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/members/Ruimao_Zhang.jpg
+thumbnail-img: /assets/img/members/Benyou_Wang.jpg
 ---
 
 <!-- photo -->
