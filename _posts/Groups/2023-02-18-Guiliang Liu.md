@@ -1,28 +1,28 @@
 ---
 layout: post
-title: "Yixiang Fang"
+title: "Guiliang Liu"
 subtitle: ""
-tags: [KGGL,TDC] # Group name, _C if is a coordinator
+tags: [SHDS_C] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/members/Yixiang_Fang.jpg
+thumbnail-img: /assets/img/members/Guiliang_Liu.jpg
 ---
 
 <!-- photo -->
 <!-- size: 200px width use html-->
 <img
-    src="../../assets/img/members/Yixiang_Fang.jpg"
-    alt=""
+    src="../../assets/img/members/Guiliang_Liu.jpg"
+    alt="Guiliang Liu"
     style="width: 200px; align: left;"
 />
 
 <!-- bio -->
-- **Associate Professor**:
+- **Assistant Professor**:
 
 <p>
     <button class="button">
     <a
-        href="https://sds.cuhk.edu.cn/en/teacher/431"
+        href="https://sds.cuhk.edu.cn/en/teacher/630"
         style="text-decoration: none"
         >More Information</a
     >

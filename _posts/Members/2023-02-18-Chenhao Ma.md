@@ -2,7 +2,7 @@
 layout: post
 title: "Chenhao Ma"
 subtitle: ""
-tags: [] # Group name, _C if is a coordinator
+tags: [KGGL,TDC_C] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Chenhao_Ma.jpg

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Yixiang Fang"
+title: "Baoyuan Wu"
 subtitle: ""
-tags: [KGGL,TDC] # Group name, _C if is a coordinator
+tags: [SHDS,TDC] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/members/Yixiang_Fang.jpg
+thumbnail-img: /assets/img/members/Baoyuan_Wu.jpg
 ---
 
 <!-- photo -->
 <!-- size: 200px width use html-->
 <img
-    src="../../assets/img/members/Yixiang_Fang.jpg"
-    alt=""
+    src="../../assets/img/members/Baoyuan_Wu.jpg"
+    alt="Baoyuan Wu"
     style="width: 200px; align: left;"
 />
 
@@ -22,7 +22,7 @@ thumbnail-img: /assets/img/members/Yixiang_Fang.jpg
 <p>
     <button class="button">
     <a
-        href="https://sds.cuhk.edu.cn/en/teacher/431"
+        href=""
         style="text-decoration: none"
         >More Information</a
     >
