@@ -1,28 +1,28 @@
 ---
 layout: post
-title: "Ming Yan"
-subtitle: "Associate Director"
+title: "Chenhao Ma"
+subtitle: ""
 tags: [] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/members/Ming_Yan.jpg
+thumbnail-img: /assets/img/members/Chenhao_Ma.jpg
 ---
 
 <!-- photo -->
 <!-- size: 200px width use html-->
 <img
-    src="../../assets/img/members/Ming_Yan.jpg"
+    src="../../assets/img/members/Chenhao_Ma.jpg"
     alt=""
     style="width: 200px; align: left;"
 />
 
 <!-- bio -->
-- **Associate Professor**
+- **Assistant Professor**:
 
 <p>
     <button class="button">
     <a
-        href="https://sds.cuhk.edu.cn/en/teacher/642"
+        href="https://sds.cuhk.edu.cn/en/teacher/631"
         style="text-decoration: none"
         >More Information</a
     >

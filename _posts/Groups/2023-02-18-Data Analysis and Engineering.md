@@ -14,7 +14,6 @@ comments: true
 Focusing on data analysis and application, this group carries out key technical research, standard formulation, engineering realization and platform construction, and actively carries out technical consultation to better serve the society and industry development.
 
 # Coordinator
-# Coordinator
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <!-- only show posts tags is exactly group_coordinator_tag -->

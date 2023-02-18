@@ -17,11 +17,8 @@ thumbnail-img: /assets/img/members/Jianhua_Huang.jpg
 />
 
 <!-- bio -->
-<p>
-    Associate Dean (Faculty Affairs and Strategic Operations)
-    <br />
-    Presidential Chair Professor
-</p>
+- **Associate Dean (Faculty Affairs and Strategic Operations)**
+- **Presidential Chair Professor**
 
 <p>
     <button class="button">

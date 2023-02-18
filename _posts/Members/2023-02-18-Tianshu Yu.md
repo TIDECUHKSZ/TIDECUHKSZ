@@ -1,28 +1,28 @@
 ---
 layout: post
-title: "Ming Yan"
-subtitle: "Associate Director"
-tags: [] # Group name, _C if is a coordinator
+title: "Tianshu Yu"
+subtitle: ""
+tags: [KGGL_C] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/members/Ming_Yan.jpg
+thumbnail-img: /assets/img/members/Tianshu_Yu.jpg
 ---
 
 <!-- photo -->
 <!-- size: 200px width use html-->
 <img
-    src="../../assets/img/members/Ming_Yan.jpg"
+    src="../../assets/img/members/Tianshu_Yu.jpg"
     alt=""
     style="width: 200px; align: left;"
 />
 
 <!-- bio -->
-- **Associate Professor**
+- **Assistant Professor**:
 
 <p>
     <button class="button">
     <a
-        href="https://sds.cuhk.edu.cn/en/teacher/642"
+        href="https://sds.cuhk.edu.cn/en/teacher/448"
         style="text-decoration: none"
         >More Information</a
     >
