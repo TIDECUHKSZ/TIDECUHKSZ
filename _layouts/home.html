@@ -19,9 +19,9 @@ layout: page
 <!-- Interest Groups -->
 <h1>Interest Groups</h1>
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in posts %}
+  {% for post in site.categories.Groups %}
   <!-- only show posts with category Groups -->
-  {% if post.categories contains 'Groups' %}
+  <!-- {% if post.categories contains 'Groups' %} -->
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
