@@ -98,9 +98,9 @@ layout: page
 <!-- Members -->
 <h1>Members</h1>
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in posts %}
+  {% for post in site.categories.Members %}
   <!-- only show posts with category Members -->
-  {% if post.categories contains "Members" %}
+  <!-- {% if post.categories contains "Members" %} -->
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
