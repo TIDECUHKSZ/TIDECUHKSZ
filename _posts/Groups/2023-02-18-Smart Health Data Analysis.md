@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Smart Health Data Anakysis(SHDA Group)"
-subtitle: "Smart Health Data Anakysis group focuses on improving health through intelligent systems and protecting data through security measures." 
+title: "Smart Health Data Analysis(SHDA Group)"
+subtitle: "Smart Health Data Analysis group focuses on improving health through intelligent systems and protecting data through security measures." 
 tags: []
 categories: [Groups]
 comments: true
