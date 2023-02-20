@@ -20,11 +20,9 @@ thumbnail-img: /assets/img/members/Baoyuan_Wu.jpg
 - **Associate Professor**:
 
 <p>
-    <button class="button">
     <a
-        href=""
+        href="https://sds.cuhk.edu.cn/en/teacher/637"
         style="text-decoration: none"
         >More Information</a
     >
-    </button>
 </p>
