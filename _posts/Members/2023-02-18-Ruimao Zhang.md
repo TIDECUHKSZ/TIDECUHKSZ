@@ -6,8 +6,8 @@ tags: [NLP,AHDS,SHDA] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Ruimao_Zhang.jpg
+sdslink: "https://sds.cuhk.edu.cn/en/teacher/433"
 ---
-{% assign SDSlink = "https://sds.cuhk.edu.cn/en/teacher/433" %}
 <!-- photo -->
 <!-- size: 200px width use html-->
 <img
