@@ -2,7 +2,7 @@
 layout: post
 title: "Intelligent Multi-Modal Information Processing(IMMIP Group)"
 subtitle: "IMMIP group explores deep learning and multimodal data processing for text and images." 
-tags: []
+tags: [IMMIP]
 categories: [Groups]
 comments: true
 ---

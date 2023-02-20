@@ -2,7 +2,7 @@
 layout: post
 title: "Smart Health Data Analysis(SHDA Group)"
 subtitle: "Smart Health Data Analysis group focuses on improving health through intelligent systems and protecting data through security measures." 
-tags: []
+tags: [SHDA]
 categories: [Groups]
 comments: true
 ---

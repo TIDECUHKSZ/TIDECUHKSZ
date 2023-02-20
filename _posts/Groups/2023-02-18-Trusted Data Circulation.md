@@ -2,7 +2,7 @@
 layout: post
 title: "Trusted Data Circulation(TDC Group)"
 subtitle: "Trusted Data Circulation group focuses on secure cross-industry data exchange through advanced technology, including privacy computing and blockchain." 
-tags: []
+tags: [TDC]
 categories: [Groups]
 comments: true
 ---
