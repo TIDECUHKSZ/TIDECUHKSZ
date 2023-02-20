@@ -2,7 +2,7 @@
 layout: post
 title: "Guiliang Liu"
 subtitle: ""
-tags: [SHDS_C] # Group name, _C if is a coordinator
+tags: [SHDA_C] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Guiliang_Liu.jpg

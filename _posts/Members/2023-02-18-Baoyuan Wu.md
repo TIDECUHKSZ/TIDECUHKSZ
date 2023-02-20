@@ -2,7 +2,7 @@
 layout: post
 title: "Baoyuan Wu"
 subtitle: ""
-tags: [SHDS,TDC] # Group name, _C if is a coordinator
+tags: [SHDA,TDC] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Baoyuan_Wu.jpg
