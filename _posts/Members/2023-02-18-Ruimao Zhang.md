@@ -2,7 +2,7 @@
 layout: post
 title: "Ruimao Zhang"
 subtitle: ""
-tags: [NLP,AHDS,SHDA] # Group name, _C if is a coordinator
+tags: [IMMIP,AHDS,SHDA] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Ruimao_Zhang.jpg
