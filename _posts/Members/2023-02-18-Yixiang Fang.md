@@ -6,6 +6,7 @@ tags: [KGGL,TDC] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Yixiang_Fang.jpg
+sdslink: https://sds.cuhk.edu.cn/en/teacher/431
 ---
 
 <!-- photo -->

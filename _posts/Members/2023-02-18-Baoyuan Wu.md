@@ -2,10 +2,11 @@
 layout: post
 title: "Baoyuan Wu"
 subtitle: ""
-tags: [SHDA,TDC] # Group name, _C if is a coordinator
+tags: [SHDS,TDC] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Baoyuan_Wu.jpg
+sdslink: https://sds.cuhk.edu.cn/en/teacher/322
 ---
 
 <!-- photo -->
@@ -20,9 +21,10 @@ thumbnail-img: /assets/img/members/Baoyuan_Wu.jpg
 - **Associate Professor**:
 
 <p>
+    <button class="button">
     <a
-        href="https://sds.cuhk.edu.cn/en/teacher/637"
+        href="https://sds.cuhk.edu.cn/en/teacher/322"
         style="text-decoration: none"
         >More Information</a
     >
-</p>
+    </button>
