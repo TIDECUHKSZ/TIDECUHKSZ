@@ -82,9 +82,14 @@ layout: page
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
-          <li class="list-inline-item">
-            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
-          </li>
+          {% for member in site.categories.Members %}
+              {% if member.tags contains tag %}
+                <li class="list-inline-item">
+                  <!-- link to member page -->
+                  <a href="{{ member.url | absolute_url }}">{{ member.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
           {% endfor %}
         </ul>
       </div>
@@ -158,9 +163,11 @@ layout: page
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
-          <li class="list-inline-item">
-            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
-          </li>
+            {% for member in site.categories.Members %}
+            <li class="list-inline-item">
+              <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+            </li>
+            {% endfor %}
           {% endfor %}
         </ul>
       </div>
