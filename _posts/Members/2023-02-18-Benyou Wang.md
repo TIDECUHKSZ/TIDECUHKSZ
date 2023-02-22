@@ -2,7 +2,7 @@
 layout: post
 title: "Benyou Wang"
 subtitle: ""
-tags: [IMMIP_C] # Group name, _C if is a coordinator
+tags: [MIP] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Benyou_Wang.jpg

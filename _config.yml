@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Center for Digital Economy Technology Innovation
+title: Technology and Innovation Center for Digital Econmy
 
 # Your name to show in the footer
 author: The School of Data Science (SDS) of The Chinese University of Hong Kong, Shenzhen
@@ -46,8 +46,8 @@ round-avatar: false
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
-social-network-links:
-  email: "someone@example.com"
+# social-network-links:
+  # email: "someone@example.com"
   # rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook: deanattali
   # github: daattali
