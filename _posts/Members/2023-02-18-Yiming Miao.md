@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Junfeng Wu"
+title: "Yiming Miao"
 subtitle: ""
-tags: [CPS_C] # Group name, _C if is a coordinator
+tags: [CPS] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/members/.jpg
+thumbnail-img: /assets/img/members/Yiming_Miao.jpg
 ---
 
 <!-- photo -->
 <!-- size: 200px width use html-->
 <img
-    src="../../assets/img/members/Junfeng_Wu.jpg"
-    alt="Junfeng Wu"
+    src="../../assets/img/members/Yiming_Miao.jpg"
+    alt="Yiming Miao"
     style="width: 200px; align: left;"
 />
 
@@ -22,7 +22,7 @@ thumbnail-img: /assets/img/members/.jpg
 <p>
     <button class="button">
     <a
-        href="https://sds.cuhk.edu.cn/en/teacher/428"
+        href="https://sds.cuhk.edu.cn/en/teacher/451"
         style="text-decoration: none"
         >More Information</a
     >
