@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Steering Committee
+title: "Steering Committee"
 subtitle:
 tags: [SC]
 categories: [Committee]
