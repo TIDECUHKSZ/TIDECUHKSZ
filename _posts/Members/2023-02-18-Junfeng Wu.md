@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Ruimao Zhang"
+title: "Junfeng Wu"
 subtitle: ""
-tags: [MIP_C,SHDA,SC_M] # Group name, _C if is a coordinator
+tags: [] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
-thumbnail-img: /assets/img/members/Ruimao_Zhang.jpg
-sdslink: "https://sds.cuhk.edu.cn/en/teacher/433"
+thumbnail-img: /assets/img/members/.jpg
 ---
+
 <!-- photo -->
 <!-- size: 200px width use html-->
 <img
-    src="../../assets/img/members/Ruimao_Zhang.jpg"
-    alt="Ruimao Zhang"
+    src="../../assets/img/members/.jpg"
+    alt=""
     style="width: 200px; align: left;"
 />
 
@@ -22,7 +22,7 @@ sdslink: "https://sds.cuhk.edu.cn/en/teacher/433"
 <p>
     <button class="button">
     <a
-        href="https://sds.cuhk.edu.cn/en/teacher/433"
+        href=""
         style="text-decoration: none"
         >More Information</a
     >
