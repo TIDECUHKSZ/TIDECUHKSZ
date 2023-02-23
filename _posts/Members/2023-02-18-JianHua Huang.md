@@ -2,7 +2,7 @@
 layout: post
 title: "Jianhua Huang"
 subtitle: "Director"
-tags: [DAE,TDC] # Group name, _C if is a coordinator
+tags: [DAE,TDC,SC] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Jianhua_Huang.jpg
