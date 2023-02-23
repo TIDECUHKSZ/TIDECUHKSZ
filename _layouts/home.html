@@ -19,7 +19,7 @@ layout: page
 <!-- Steering Committee -->
 <h1>Steering Committee</h1>
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in site.categories.Groups %}
+  {% for post in site.categories.Committee %}
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
@@ -76,11 +76,11 @@ layout: page
       {% endunless %} {% if site.feed_show_tags != false and post.tags.size > 0
       %}
       <div class="blog-tags">
-        <span>Coordinator:</span>
+        <span>Director:</span>
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
-            {% assign tag_c = tag | append: '_C' %}
+            {% assign tag_c = tag | append: '_D' %}
             {% for member in site.categories.Members %}
               {% if member.tags contains tag_c %}
                 <li class="list-inline-item">
