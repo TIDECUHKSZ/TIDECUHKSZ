@@ -80,9 +80,9 @@ layout: page
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
-            {% assign tag_c = tag | append: '_D' %}
+            {% assign tag_d = tag | append: '_D' %}
             {% for member in site.categories.Members %}
-              {% if member.tags contains tag_c %}
+              {% if member.tags contains tag_d %}
                 <li class="list-inline-item">
                   <!-- link to member page -->
                   <a href="{{ member.url | absolute_url }}">{{ member.title }}</a>
@@ -93,12 +93,30 @@ layout: page
         </ul>
       </div>
       <div class="blog-tags">
-        <span>Members:</span>
+        <span>Executive Director:</span>
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
-          {% for member in site.categories.Members %}
-              {% if member.tags contains tag %}
+            {% assign tag_ed = tag | append: '_ED' %}
+            {% for member in site.categories.Members %}
+              {% if member.tags contains tag_ed %}
+                <li class="list-inline-item">
+                  <!-- link to member page -->
+                  <a href="{{ member.url | absolute_url }}">{{ member.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="blog-tags">
+        <span>Member:</span>
+        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+        <ul class="d-inline list-inline" role="list">
+          {% for tag in post.tags %}
+            {% assign tag_m = tag | append: '_M' %}
+            {% for member in site.categories.Members %}
+              {% if member.tags contains tag_m %}
                 <li class="list-inline-item">
                   <!-- link to member page -->
                   <a href="{{ member.url | absolute_url }}">{{ member.title }}</a>
@@ -111,7 +129,7 @@ layout: page
       {% endif %}
     </article>
   </li>
-  {% endif %} {% endfor %}
+  {% endfor %}
 </ul>
 <br />
 
@@ -120,7 +138,6 @@ layout: page
 <ul class="posts-list list-unstyled" role="list">
   {% for post in site.categories.Groups %}
   <!-- only show posts with category Groups -->
-  <!-- {% if post.categories contains 'Groups' %} -->
   <li class="post-preview">
     <article>
       {%- capture thumbnail -%} {% if post.thumbnail-img %} {{
@@ -212,7 +229,7 @@ layout: page
       {% endif %}
     </article>
   </li>
-  {% endif %} {% endfor %}
+  {% endfor %}
 </ul>
 <br />
 
