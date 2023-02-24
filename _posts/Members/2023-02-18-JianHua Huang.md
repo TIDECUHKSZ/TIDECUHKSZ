@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jianhua Huang"
-subtitle: "Director"
+subtitle: "Director of Steering Committee"
 tags: [DAE,TDC,SC_D] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
