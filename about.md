@@ -14,7 +14,7 @@ title: About
 # Organization of the Center
 The center has a steering committee (including a director and an executive director) responsible for its operation. Within the center, there are several (currently five) interest groups. Each interest group focuses on one research area of common interest to group members. Any regular member of the center needs to actively participate in at least one interest group.
 
-Rules for interest groups:
+**Rules for interest groups:**
 1. Each group has at least two faculty members and one of them serves as the coordinator.
 2. Each group needs to have regular planned activities (group meetings, seminars, etc.), and the schedule for these activities should be posted on the center website so that other faculty and students in SDS may also attend events without joining the interest group.
 3. A member of an interest group should regularly attend group activities.
