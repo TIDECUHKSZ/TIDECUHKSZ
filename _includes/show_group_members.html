@@ -1,6 +1,7 @@
 # Coordinator
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in site.categories.Members %}
+  {% assign sortedMembers = site.categories.Members | sort: 'title' %}
+  {% for post in sortedMembers %}
   <!-- only show posts tags is exactly group_coordinator_tag -->
   {% if post.tags contains group_coordinator_tag %}
   <li class="post-preview">
@@ -72,7 +73,7 @@
 
 # Members
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in site.categories.Members %}
+  {% for post in sortedMembers %}
   <!-- only show posts tags is exactly group_member_tag -->
   {% if post.tags contains group_member_tag %}
   <li class="post-preview">
