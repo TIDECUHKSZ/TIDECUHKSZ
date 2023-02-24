@@ -297,7 +297,8 @@ layout: page
         <span>Interest Group:</span>
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
-          {% for tag in post.tags %}
+          {% assign sortedTags= post.tags | sort: 'title' %}
+          {% for tag in sortedTags %}
             <li class="list-inline-item">
               <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
             </li>
