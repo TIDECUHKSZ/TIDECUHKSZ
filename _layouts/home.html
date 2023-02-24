@@ -279,16 +279,6 @@ layout: page
         </a>
       </div>
       {% endif %}
-      <div class="post-entry">
-        {% assign excerpt_length = site.excerpt_length | default: 50 %} {{
-        post.excerpt | strip_html | truncatewords: excerpt_length }} {% assign
-        excerpt_word_count = post.excerpt | number_of_words %} {% if
-        post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-        <a href="{{ post.sdslink | absolute_url }}" class="post-read-more"
-          >[More&nbsp;Information]</a
-        >
-        {% endif %}
-      </div>
       {% endunless %} {% if site.feed_show_tags != false and post.tags.size > 0
       %}
       <div class="blog-tags">
@@ -302,6 +292,16 @@ layout: page
             </li>
           {% endfor %}
         </ul>
+      </div>
+      <div class="post-entry">
+        {% assign excerpt_length = site.excerpt_length | default: 50 %} {{
+        post.excerpt | strip_html | truncatewords: excerpt_length }} {% assign
+        excerpt_word_count = post.excerpt | number_of_words %} {% if
+        post.content != post.excerpt or excerpt_word_count > excerpt_length %}
+        <a href="{{ post.sdslink | absolute_url }}" class="post-read-more"
+          >[More&nbsp;Information]</a
+        >
+        {% endif %}
       </div>
       {% endif %}
     </article>
