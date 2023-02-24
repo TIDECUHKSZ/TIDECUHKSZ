@@ -3,6 +3,8 @@ layout: page
 title: About
 # subtitle: 
 ---
+With the widespread adoption of digital technologies (robotics, machine learning and AI, sensors, virtual reality and so on) in economic activities (production, distribution, trade), the global economy is undergoing a digital transformation. The resulting and rapidly evolving digital economy is continuously replacing and expanding the traditional economy. To meet the technology needs of the growing digital economy, a group of SDS faculty members propose to create the Technology and Innovation Center for Digital Economy (数字经济技术创新中心) that promotes research and education collaborations between faculty members in this area, engages interested students, and helps build connections with industry and academic partners.
+
 # The Objectives of This Center
 <!-- list -->
 1. Encourage the collaboration between faculty members in SDS and in CUHKSZ;
