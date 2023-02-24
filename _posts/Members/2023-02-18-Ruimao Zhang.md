@@ -2,7 +2,7 @@
 layout: post
 title: "Ruimao Zhang"
 subtitle: "Member of Steering Committee"
-tags: [MIP_C,SHDA,SC_M] # Group name, _C if is a coordinator
+tags: [MIP_C,SHDS,SC_M] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Ruimao_Zhang.jpg
