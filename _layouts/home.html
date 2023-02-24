@@ -237,7 +237,8 @@ layout: page
 <!-- Members -->
 <h1>Members</h1>
 <ul class="posts-list list-unstyled" role="list">
-  {% for post in site.categories.Members %}
+  {% assign sortedMembers= site.categories.Members | sort: 'title' %}
+  {% for post in sortedMembers %}
   <!-- only show posts with category Members -->
   <!-- {% if post.categories contains "Members" %} -->
   <li class="post-preview">
