@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yixiang Fang"
+title: "FANG, Yixiang"
 subtitle: ""
 tags: [KGGL,TDC] # Group name, _C if is a coordinator
 categories: [Members]

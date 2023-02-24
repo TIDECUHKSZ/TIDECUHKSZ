@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Multi-modal Information Processing(MIP Group)"
+title: "Multi-modal Information Processing (MIP Group)"
 subtitle: "MIP group explores deep learning and multimodal data processing for text and images." 
 tags: [MIP]
 categories: [Groups]

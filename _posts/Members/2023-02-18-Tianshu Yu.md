@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tianshu Yu"
+title: "YU, Tianshu"
 subtitle: ""
 tags: [KGGL_C] # Group name, _C if is a coordinator
 categories: [Members]

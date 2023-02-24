@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Yiming Miao"
+title: "MIAO, Yiming"
 subtitle: ""
 tags: [CPS] # Group name, _C if is a coordinator
 categories: [Members]
 comments: false
 thumbnail-img: /assets/img/members/Yiming_Miao.jpg
+sdslink: https://sds.cuhk.edu.cn/en/teacher/451
 ---
 
 <!-- photo -->

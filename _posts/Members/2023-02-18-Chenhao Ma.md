@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chenhao Ma"
+title: "MA, Chenhao"
 subtitle: ""
 tags: [KGGL,TDC_C] # Group name, _C if is a coordinator
 categories: [Members]

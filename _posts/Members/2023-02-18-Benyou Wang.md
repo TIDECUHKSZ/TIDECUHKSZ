@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Benyou Wang"
+title: "WANG, Benyou"
 subtitle: ""
 tags: [MIP] # Group name, _C if is a coordinator
 categories: [Members]

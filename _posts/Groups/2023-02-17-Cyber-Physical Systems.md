@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cyber-Physical Systems(CPS Group)"
+title: "Cyber-Physical Systems (CPS Group)"
 subtitle: "Cyber-Physical Systems Group exploring collaboration between people, machines, and systems in robotics, IoT and more." 
 tags: [CPS]
 categories: [Groups]

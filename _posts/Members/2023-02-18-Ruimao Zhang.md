@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruimao Zhang"
+title: "ZHANG, Ruimao"
 subtitle: "Member of Steering Committee"
 tags: [MIP_C,SHDS,SC_M] # Group name, _C if is a coordinator
 categories: [Members]

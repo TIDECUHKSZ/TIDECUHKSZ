@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Analysis and Engineering(DAE Group)
+title: Data Analysis and Engineering (DAE Group)
 subtitle: Data Analysis and Engineering group drives tech research, standardization, platform building and consultation.
 tags: [DAE]
 categories: [Groups]

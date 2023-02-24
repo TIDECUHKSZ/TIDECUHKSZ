@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Knowledge Graph and Graph Learning(KGGL Group)"
+title: "Knowledge Graph and Graph Learning (KGGL Group)"
 subtitle: "Knowledge Graph and Graph Learning group focuses on knowledge graphs and graph learning, sharing research and ideas."
 tags: [KGGL]
 categories: [Groups]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baoyuan Wu"
+title: "WU, Baoyuan"
 subtitle: ""
 tags: [SHDS,TDC] # Group name, _C if is a coordinator
 categories: [Members]

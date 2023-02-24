@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Guiliang Liu"
+title: "LIU, Guiliang"
 subtitle: ""
 tags: [SHDS_C] # Group name, _C if is a coordinator
 categories: [Members]
