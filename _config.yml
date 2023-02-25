@@ -13,10 +13,7 @@
 title: Technology and Innovation Center for Digital Econmy
 
 # Your name to show in the footer
-author:  |-
-  The School of Data Science (SDS) of   
-  
-  The Chinese University of Hong Kong, Shenzhen
+author: <p>The School of Data Science (SDS) of<br> <br> The Chinese University of Hong Kong, Shenzhen</p>
 
 ###############################################
 # --- List of links in the navigation bar --- #
